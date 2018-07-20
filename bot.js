@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ready?') {
+    if (message.content === 'steady') {
     	message.reply('ready for control');
   	}
 });
